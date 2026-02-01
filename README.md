@@ -4,7 +4,7 @@
 
 **FORGE 1.0** is a premier product buildathon organized by **SEED NITJ** (Society of Electrical Engineers and Developers, NIT Jalandhar). This event is designed to simulate real-world startup problem-solving where participants step into the role of founding engineers to design, build, and ship functional Minimum Viable Products (MVPs).
 
-🔗 **Live Website:** [forge.seednitj.com](https://forge.seednitj.com/)
+🔗 **Live Website:** [forge-seed.netlify.app](https://forge-seed.netlify.app/)
 
 ---
 
