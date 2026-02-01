@@ -375,6 +375,14 @@ h6 {
     background: linear-gradient(135deg, #25D366, #128C7E);
 }
 
+.fab-email {
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
+}
+
+.fab-guide {
+    background: linear-gradient(135deg, #a855f7, #d946ef);
+}
+
 .fab-tooltip {
     position: absolute;
     right: 70px;
