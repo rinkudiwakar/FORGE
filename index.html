@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORGE 1.0 | Buildathon by SEED</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            orange: '#FF4D00',
+                            cyan: '#00E5FF',
+                            dark: '#0a0a0a',
+                            surface: '#171717'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Orbitron', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-brand-dark text-gray-300">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass top-0 left-0 border-b border-white/5">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <img src="assets/seed_logo.jpeg" alt="SEED Logo" class="h-10 w-auto rounded-md">
+                <div class="h-6 w-px bg-white/20"></div>
+                <span class="font-display font-bold text-xl tracking-wider text-white">FORGE<span
+                        class="text-brand-orange">1.0</span></span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#about"
+                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">About</a>
+                <a href="#timeline"
+                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">Timeline</a>
+                <a href="#tech"
+                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">Tech
+                    Stack</a>
+                <a href="#sponsors"
+                    class="hover:text-brand-secondary transition-colors text-sm uppercase font-bold tracking-widest">Sponsors</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSez5FNre4moJEgHFhAeXGRyJ1x24RQqUObyMH0sR6KsNecKpg/viewform?usp=publish-editor"
+                    target="_blank" class="btn-forge px-6 py-2 text-sm">Register Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">
+            <img src="assets/forge 1.0 with bg.jpeg" alt="Forge Background" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/80 to-transparent"></div>
+        </div>
+
+        <div class="container relative z-10 px-6 text-center">
+            <div
+                class="mb-6 inline-block border border-brand-orange/30 bg-brand-orange/10 px-4 py-1 rounded-full text-brand-orange text-sm font-bold tracking-widest animate-fade-in">
+                FEB 8, 2026 • NIT JALANDHAR
+            </div>
+            <h1 class="text-6xl md:text-8xl font-black text-white mb-6 animate-fade-in delay-100">
+                FORGE <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-red-600">1.0</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto font-light animate-fade-in delay-200">
+                From <span class="text-brand-cyan font-medium">Breadboards</span> to <span
+                    class="text-brand-cyan font-medium">Breakthroughs</span>.<br>
+                Build Real. Ship Fast.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center animate-fade-in delay-300">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSez5FNre4moJEgHFhAeXGRyJ1x24RQqUObyMH0sR6KsNecKpg/viewform?usp=publish-editor"
+                    target="_blank" class="btn-forge px-8 py-4 text-lg">Start Building</a>
+                <a href="#guide"
+                    class="px-8 py-4 border border-white/20 hover:border-brand-cyan hover:text-brand-cyan transition-all text-white font-bold uppercase tracking-wider backdrop-blur-sm clip-path-polygon">
+                    View Guide
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-grid relative">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl text-white mb-6">Simulation of <span class="text-brand-orange">Startup
+                        Reality</span></h2>
+                <div class="h-1 w-20 bg-brand-orange mx-auto rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <p class="text-lg leading-relaxed text-gray-400">
+                        FORGE 1.0 isn't just a hackathon. It's a <strong class="text-white">Product Buildathon</strong>
+                        designed to simulate real-world startup chaos. Teams act as founding engineers, tackling
+                        operational bottlenecks with functional solutions.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-400">
+                        The focus is on <strong class="text-brand-cyan">Hardware-Software Integration</strong> and
+                        creating functional prototypes. We prioritize execution over presentations. Your code must work,
+                        your automation must trigger, and your product must solve a real problem.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 mt-8">
+                        <div class="p-4 bg-brand-surface border-l-2 border-brand-orange">
+                            <h4 class="text-white font-bold mb-1">Real Problems</h4>
+                            <p class="text-sm text-gray-500">Solve actual operational challenges.</p>
+                        </div>
+                        <div class="p-4 bg-brand-surface border-l-2 border-brand-cyan">
+                            <h4 class="text-white font-bold mb-1">Working Code</h4>
+                            <p class="text-sm text-gray-500">Backend logic & automation required.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div
+                        class="absolute -inset-1 bg-gradient-to-r from-brand-orange to-brand-cyan rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200">
+                    </div>
+                    <div class="relative bg-brand-surface p-8 rounded-lg border border-white/10">
+                        <h3 class="text-xl text-white mb-4"><i class="fas fa-microchip text-brand-cyan mr-2"></i> The
+                            Mission</h3>
+                        <p class="text-gray-400 mb-6">
+                            To enable participants to build a working Minimum Viable Product (MVP) within 4 hours.
+                            Develop practical skills in backend logic, automation principles, and scalability.
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-brand-orange mr-3"></i> Backend Logic Priority
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-brand-orange mr-3"></i> Functional Prototyping
+                            </li>
+                            <li class="flex items-center text-gray-300">
+                                <i class="fas fa-check text-brand-orange mr-3"></i> 24-Hour Timeline Intensity
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="py-20 bg-brand-dark border-y border-white/5">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl text-white text-center mb-16">The <span
+                    class="text-brand-cyan">Agenda</span></h2>
+
+            <div class="relative max-w-4xl mx-auto">
+                <!-- Vertical Line -->
+                <div class="absolute left-4 md:left-1/2 h-full w-px bg-white/10 transform md:-translate-x-1/2"></div>
+
+                <!-- Time Items -->
+                <div class="space-y-12">
+                    <!-- Item 1 -->
+                    <div class="relative flex flex-col md:flex-row items-center justify-between group">
+                        <div class="md:w-5/12 text-left md:text-right mb-4 md:mb-0 ml-12 md:ml-0">
+                            <h4 class="text-xl text-white font-bold">Registration & Check-in</h4>
+                            <p class="text-gray-500">Team setup and ID distribution</p>
+                        </div>
+                        <div
+                            class="absolute left-0 md:left-1/2 w-8 h-8 bg-brand-surface border-2 border-brand-orange rounded-full flex items-center justify-center transform md:-translate-x-1/2 z-10 group-hover:bg-brand-orange transition-colors">
+                            <i class="fas fa-id-badge text-xs text-white"></i>
+                        </div>
+                        <div class="md:w-5/12 ml-12 md:ml-0">
+                            <span class="text-brand-orange font-display font-bold text-lg">09:00 AM</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="relative flex flex-col md:flex-row-reverse items-center justify-between group">
+                        <div class="md:w-5/12 text-left mb-4 md:mb-0 ml-12 md:ml-0">
+                            <h4 class="text-xl text-white font-bold">Build Phase Starts</h4>
+                            <p class="text-gray-500">Design, code, and automate. Mentor support active.</p>
+                        </div>
+                        <div
+                            class="absolute left-0 md:left-1/2 w-8 h-8 bg-brand-surface border-2 border-brand-cyan rounded-full flex items-center justify-center transform md:-translate-x-1/2 z-10 group-hover:bg-brand-cyan transition-colors">
+                            <i class="fas fa-code text-xs text-white"></i>
+                        </div>
+                        <div class="md:w-5/12 text-right md:text-left ml-12 md:ml-0">
+                            <span class="text-brand-cyan font-display font-bold text-lg">10:00 AM</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="relative flex flex-col md:flex-row items-center justify-between group">
+                        <div class="md:w-5/12 text-left md:text-right mb-4 md:mb-0 ml-12 md:ml-0">
+                            <h4 class="text-xl text-white font-bold">Submission Deadline</h4>
+                            <p class="text-gray-500">Demo video & report submission. Strict cutoff.</p>
+                        </div>
+                        <div
+                            class="absolute left-0 md:left-1/2 w-8 h-8 bg-brand-surface border-2 border-red-500 rounded-full flex items-center justify-center transform md:-translate-x-1/2 z-10 group-hover:bg-red-500 transition-colors">
+                            <i class="fas fa-flag-checkered text-xs text-white"></i>
+                        </div>
+                        <div class="md:w-5/12 ml-12 md:ml-0">
+                            <span class="text-red-500 font-display font-bold text-lg">02:00 PM</span>
+                        </div>
+                    </div>
+
+                    <!-- Item 4 -->
+                    <div class="relative flex flex-col md:flex-row-reverse items-center justify-between group">
+                        <div class="md:w-5/12 text-left mb-4 md:mb-0 ml-12 md:ml-0">
+                            <h4 class="text-xl text-white font-bold">Results & Prize Distribution</h4>
+                            <p class="text-gray-500">Winners announced. Certificates awarded.</p>
+                        </div>
+                        <div
+                            class="absolute left-0 md:left-1/2 w-8 h-8 bg-brand-surface border-2 border-brand-orange rounded-full flex items-center justify-center transform md:-translate-x-1/2 z-10 group-hover:bg-brand-orange transition-colors">
+                            <i class="fas fa-trophy text-xs text-white"></i>
+                        </div>
+                        <div class="md:w-5/12 text-right md:text-left ml-12 md:ml-0">
+                            <span class="text-brand-orange font-display font-bold text-lg">06:30 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="py-20 relative overflow-hidden">
+        <!-- Decorational elements -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-brand-orange/5 rounded-full filter blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-brand-cyan/5 rounded-full filter blur-3xl"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <h2 class="text-3xl md:text-4xl text-white text-center mb-16">Recommended <span
+                    class="text-white">Stack</span></h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="tech-card bg-brand-surface p-8 rounded-xl text-center">
+                    <div
+                        class="w-16 h-16 mx-auto bg-gray-800 rounded-lg flex items-center justify-center mb-6 text-brand-cyan">
+                        <i class="fas fa-robot text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl text-white font-bold mb-3">AI Editors</h3>
+                    <p class="text-gray-400 text-sm mb-4">Speed up development with AI assistance.</p>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300">Cursor</span>
+                        <span class="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300">Windsurf</span>
+                        <span class="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300">Antigravity</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="tech-card bg-brand-surface p-8 rounded-xl text-center">
+                    <div
+                        class="w-16 h-16 mx-auto bg-gray-800 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
+                        <i class="fas fa-bolt text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl text-white font-bold mb-3">Automation</h3>
+                    <p class="text-gray-400 text-sm mb-4">Connect apps and build workflows.</p>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300">Make.com</span>
+                        <span class="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300">Zapier</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="tech-card bg-brand-surface p-8 rounded-xl text-center">
+                    <div
+                        class="w-16 h-16 mx-auto bg-gray-800 rounded-lg flex items-center justify-center mb-6 text-yellow-500">
+                        <i class="fas fa-database text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl text-white font-bold mb-3">Backend & DB</h3>
+                    <p class="text-gray-400 text-sm mb-4">Real-time data and serverless logic.</p>
+                    <div class="flex flex-wrap justify-center gap-2">
+                        <span class="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300">Firebase</span>
+                        <span class="px-3 py-1 bg-white/5 rounded-full text-xs text-gray-300">Supabase</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 text-center">
+                <p class="text-gray-500 italic max-w-2xl mx-auto border-t border-white/10 pt-6">
+                    "Solutions should automate a real process and show backend logic. Hardware integration
+                    (ESP32/Arduino) is encouraged for physical prototypes."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsor Section -->
+    <section id="sponsors" class="py-20 bg-black/30">
+        <div class="container mx-auto px-6 text-center">
+            <h5 class="text-brand-orange font-bold uppercase tracking-widest mb-10">Supported By</h5>
+            <div class="flex justify-center items-center">
+                <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+                    <img src="assets/plaksha_logo.jpeg" alt="Plaksha University" class="h-24 md:h-32 object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="register" class="py-24 bg-brand-surface relative overflow-hidden">
+        <div class="absolute inset-0 bg-grid opacity-20"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-black text-white mb-6">Ready to <span
+                    class="text-brand-cyan">Forge</span>?</h2>
+            <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+                Limited seats available. Join the premier engineering buildathon and turn your ideas into functional
+                prototypes.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSez5FNre4moJEgHFhAeXGRyJ1x24RQqUObyMH0sR6KsNecKpg/viewform?usp=publish-editor"
+                target="_blank" class="btn-forge px-12 py-5 text-xl shadow-2xl inline-block">Register Now</a>
+            <p class="mt-6 text-sm text-gray-500">Registration closes Feb 8, 09:00 AM</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark py-12 border-t border-white/5">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center space-x-3 mb-4 md:mb-0">
+                <img src="assets/seed_logo.jpeg" alt="SEED" class="h-10 w-auto rounded opacity-80">
+                <span class="text-gray-400 font-bold">SEED NITJ</span>
+            </div>
+            <div class="text-gray-600 text-sm">
+                &copy; 2026 Society of Electrical Engineers and Developers. All rights reserved.
+            </div>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="text-gray-500 hover:text-brand-orange transition-colors"><i
+                        class="fab fa-instagram text-xl"></i></a>
+                <a href="#" class="text-gray-500 hover:text-brand-orange transition-colors"><i
+                        class="fab fa-linkedin text-xl"></i></a>
+                <a href="#" class="text-gray-500 hover:text-brand-orange transition-colors"><i
+                        class="fas fa-envelope text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
