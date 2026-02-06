@@ -12,7 +12,7 @@
 
 Unlike traditional hackathons that focus on ideation or presentations, **FORGE 1.0 emphasizes execution**. Teams are expected to create working systems that automate processes, apply backend logic, and deliver measurable outcomes.
 
-- **Date:** February 8, 2026
+- **Date:** February 15, 2026
 - **Time:** 09:00 AM - 06:30 PM
 - **Venue:** Video Conferencing Hall (VCH), IT Building, NIT Jalandhar
 - **Team Size:** 2-3 Members
