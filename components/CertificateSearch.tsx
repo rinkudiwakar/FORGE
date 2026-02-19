@@ -169,7 +169,7 @@ export default function CertificateSearch() {
         {hasSearched && !loading && results.length === 0 && query.trim() !== '' && (
           <div className="text-center text-gray-500 mt-8 bg-brand-surface/50 p-8 rounded-xl border border-white/5 max-w-lg mx-auto animate-fade-in">
             <i className="fas fa-search text-4xl mb-4 text-gray-600"></i>
-            <p>No certificates found for "{query}". <br /> Please check the spelling or try the team name.</p>
+            <p>No certificates found for &quot;{query}&quot;. <br /> Please check the spelling or try the team name.</p>
           </div>
         )}
 

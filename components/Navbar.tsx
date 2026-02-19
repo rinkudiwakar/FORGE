@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,14 +10,14 @@ export default function Navbar() {
     <nav className="fixed w-full z-50 glass border-b border-white/5">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Left: SEED Presents + Logo */}
-        <a href="/" className="flex items-center space-x-4 hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex items-center space-x-4 hover:opacity-80 transition-opacity">
           <img src="/assets/seed_logo.jpeg" alt="SEED Logo" className="h-10 w-auto rounded-md" />
           <div className="flex flex-col">
             <span className="text-gray-400 text-xs uppercase tracking-wider">SEED Presents</span>
             <span className="font-display font-bold text-xl tracking-wider text-white">FORGE<span
               className="text-brand-orange">1.0</span></span>
           </div>
-        </a>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button

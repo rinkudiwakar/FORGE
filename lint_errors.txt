@@ -1,0 +1,40 @@
+
+> forge-site@0.1.0 lint
+> eslint
+
+
+C:\Users\Prateek\Desktop\FORGE\components\CertificateSearch.tsx
+  144:19  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  172:42  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+  172:50  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`                                                                                                                                                                                                                          react/no-unescaped-entities
+
+C:\Users\Prateek\Desktop\FORGE\components\Footer.tsx
+  6:11  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Prateek\Desktop\FORGE\components\Hero.tsx
+  6:9  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Prateek\Desktop\FORGE\components\Navbar.tsx
+  12:9   error    Do not use an `<a>` element to navigate to `/`. Use `<Link />` from `next/link` instead. See: https://nextjs.org/docs/messages/no-html-link-for-pages                                                                                                                                    @next/next/no-html-link-for-pages
+  13:11  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Prateek\Desktop\FORGE\components\Poster.tsx
+  8:11  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Prateek\Desktop\FORGE\components\RegisterInfo.tsx
+  60:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  79:17  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Prateek\Desktop\FORGE\components\Sponsors.tsx
+  29:19  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+C:\Users\Prateek\Desktop\FORGE\scripts\upload_certificates.js
+   1:26  error    A `require()` style import is forbidden           @typescript-eslint/no-require-imports
+   2:12  error    A `require()` style import is forbidden           @typescript-eslint/no-require-imports
+   3:14  error    A `require()` style import is forbidden           @typescript-eslint/no-require-imports
+   4:16  error    A `require()` style import is forbidden           @typescript-eslint/no-require-imports
+  68:11  warning  'id' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  74:19  warning  'storageData' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+✖ 17 problems (7 errors, 10 warnings)
+
