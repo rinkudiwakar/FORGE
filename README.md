@@ -1,10 +1,10 @@
 # FORGE 1.0 | Product Buildathon
 
-![FORGE 1.0 Banner](assets/forge%201.0%20with%20bg.jpeg)
+![FORGE 1.0 Banner](forge-site/public/assets/forge%201.0%20with%20bg.jpeg)
 
 **FORGE 1.0** is a premier product buildathon organized by **SEED NITJ** (Society of Electrical Engineers and Developers, NIT Jalandhar). This event is designed to simulate real-world startup problem-solving where participants step into the role of founding engineers to design, build, and ship functional Minimum Viable Products (MVPs).
 
-🔗 **Live Website:** [forge-seed.netlify.app](https://forge-seed.netlify.app/)
+🔗 **Live Website:** [forge-seed.netlify.app](https://forge-seed.netlify.app)
 
 ---
 
@@ -33,30 +33,24 @@ Unlike traditional hackathons that focus on ideation or presentations, **FORGE 1
 - 🥈 **2nd Prize:** ₹2,000
 - 🥉 **3rd Prize:** ₹1,500
 
-## 🛠️ Tech Stack & Recommendations
+---
 
-Participants are encouraged to use modern tools to speed up development:
+## � The Official Platform
 
-- **AI Editors:** Cursor, Windsurf, Antigravity
-- **Automation:** Make.com, Zapier
-- **Backend & DB:** Firebase, Supabase
-- **Frontend:** HTML, CSS, JavaScript (Frameworks allowed)
+This repository houses the source code for the official FORGE 1.0 event platform. The website serves as the central hub for the event, featuring:
 
-## 📂 Project Structure
+### Key Features
+1.  **Certificate Search**: A robust system for participants to find, preview, and download their participation certificates using a name or team search.
+2.  **Event Timeline & Guides**: Detailed schedules and preparation materials.
+3.  **Modern Experience**: Built with **Next.js 15 (App Router)** and **Tailwind CSS v4** for a premium, responsive dark-themed UI.
+4.  **SEO Optimized**: Fully indexed with sitemaps and rich metadata.
 
-The website for FORGE 1.0 is built using:
-- **HTML5:** Semantic structure and content.
-- **Tailwind CSS:** Styling via CDN for rapid UI development.
-- **Vanilla JavaScript:** minimal interactivity (scroll reveal, mobile menu).
-- **FontAwesome:** Icons.
+### Tech Stack
+- **Frontend**: Next.js, React, Tailwind CSS, Framer Motion (ScrollReveal)
+- **Backend**: Next.js API Routes, Supabase (PostgreSQL)
+- **Deployment**: Vercel / Netlify
 
-```
-FORGE 1.0/
-├── assets/          # Images and resources
-├── index.html       # Main landing page
-├── styles.css       # Custom styles and animations
-└── README.md        # Project documentation
-```
+---
 
 ## 🔗 Important Links
 
@@ -74,6 +68,36 @@ FORGE 1.0/
 **Event Coordinator:** Rinku Diwakar
 - Email: [rinkud.ee.23@nitj.ac.in](mailto:rinkud.ee.23@nitj.ac.in)
 - Phone: +91 91374 38718
+
+---
+
+## 🔧 Running the Platform Locally
+
+If you wish to contribute or run the website locally:
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/rinkudiwakar/FORGE-1.0.git
+    cd "FORGE 1.0/forge-site"
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Set up Environment Variables**:
+    Create a `.env.local` file with your Supabase credentials:
+    ```env
+    SUPABASE_URL=your_url
+    SUPABASE_ANON_KEY=your_key
+    SUPABASE_SERVICE_ROLE_KEY=your_service_key
+    ```
+
+4.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
 
 ---
 &copy; 2026 Society of Electrical Engineers and Developers (SEED) NITJ. All rights reserved.
