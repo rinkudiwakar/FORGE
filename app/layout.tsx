@@ -3,6 +3,7 @@ import "./globals.css";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://forge.seednitj.com/'),
   title: "FORGE 1.0 | Product Buildathon by SEED NITJ",
   description: "Join FORGE 1.0, the premier product buildathon by SEED NITJ. Simulate startup reality, build working MVPs, and solve real-world problems. Register now!",
   keywords: "FORGE 1.0, Buildathon, Hackathon, SEED NITJ, Startup Simulation, MVP, Engineering, NIT Jalandhar, Backend Development",
