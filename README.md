@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FORGE 1.0 | Product Buildathon
 
 ![FORGE 1.0 Banner](forge-site/public/assets/forge%201.0%20with%20bg.jpeg)
@@ -101,3 +102,7 @@ If you wish to contribute or run the website locally:
 
 ---
 &copy; 2026 Society of Electrical Engineers and Developers (SEED) NITJ. All rights reserved.
+=======
+# FORGE
+FORGE EVENT WEBSITE
+>>>>>>> 3a8a9e49eb1b8c2809234fda1914cc66902a1969

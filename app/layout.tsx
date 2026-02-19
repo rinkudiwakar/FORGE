@@ -3,14 +3,14 @@ import "./globals.css";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://forge.seednitj.com/'),
+  metadataBase: new URL('https://forge-seed.netlify.com/'),
   title: "FORGE 1.0 | Product Buildathon by SEED NITJ",
   description: "Join FORGE 1.0, the premier product buildathon by SEED NITJ. Simulate startup reality, build working MVPs, and solve real-world problems. Register now!",
   keywords: "FORGE 1.0, Buildathon, Hackathon, SEED NITJ, Startup Simulation, MVP, Engineering, NIT Jalandhar, Backend Development",
   authors: [{ name: "SEED NITJ" }],
   openGraph: {
     type: "website",
-    url: "https://forge.seednitj.com/",
+    url: "https://forge-seed.netlify.com/",
     title: "FORGE 1.0 | Product Buildathon by SEED NITJ",
     description: "Simulate startup reality. Build functional MVPs. Solve real problems. Join FORGE 1.0 by SEED NITJ.",
     siteName: "FORGE 1.0",
