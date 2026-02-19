@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FORGE 1.0 | Product Buildathon
 
 ![FORGE 1.0 Banner](forge-site/public/assets/forge%201.0%20with%20bg.jpeg)
@@ -36,7 +35,7 @@ Unlike traditional hackathons that focus on ideation or presentations, **FORGE 1
 
 ---
 
-## � The Official Platform
+##  The Official Platform
 
 This repository houses the source code for the official FORGE 1.0 event platform. The website serves as the central hub for the event, featuring:
 
@@ -102,7 +101,3 @@ If you wish to contribute or run the website locally:
 
 ---
 &copy; 2026 Society of Electrical Engineers and Developers (SEED) NITJ. All rights reserved.
-=======
-# FORGE
-FORGE EVENT WEBSITE
->>>>>>> 3a8a9e49eb1b8c2809234fda1914cc66902a1969
